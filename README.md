@@ -15,13 +15,13 @@
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
 > [The most trustworthy online shop out there.](https://twitter.com/dschadow/status/706781693504589824)
-> ([@dschadow](https://github.com/dschadow)) —
+> ([@dschadow](https://github.com/dschadow)) ,
 > [The best juice shop on the whole internet!](https://twitter.com/shehackspurple/status/907335357775085568)
-> ([@shehackspurple](https://twitter.com/shehackspurple)) —
+> ([@shehackspurple](https://twitter.com/shehackspurple)) ,
 > [Actually the most bug-free vulnerable application in existence!](https://youtu.be/TXAztSpYpvE?t=26m35s)
-> ([@vanderaj](https://twitter.com/vanderaj)) —
+> ([@vanderaj](https://twitter.com/vanderaj)) ,
 > [First you 😂😂then you 😢](https://twitter.com/kramse/status/1073168529405472768)
-> ([@kramse](https://twitter.com/kramse)) —
+> ([@kramse](https://twitter.com/kramse)) ,
 > [But this doesn't have anything to do with juice.](https://twitter.com/coderPatros/status/1199268774626488320)
 > ([@coderPatros' wife](https://twitter.com/coderPatros))
 
@@ -38,27 +38,27 @@ For a detailed introduction, full list of features and architecture overview ple
 
 ## Table of contents
 
-- [Setup](#setup)
-    - [From Sources](#from-sources)
-    - [Packaged Distributions](#packaged-distributions)
-    - [Docker Container](#docker-container)
-    - [Vagrant](#vagrant)
-    - [Amazon EC2 Instance](#amazon-ec2-instance)
-    - [Azure Container Instance](#azure-container-instance)
-    - [Google Compute Engine Instance](#google-compute-engine-instance)
-    - [Heroku](#heroku)
-    - [Gitpod](#gitpod)
-- [Demo](#demo)
-- [Documentation](#documentation)
-    - [Node.js version compatibility](#nodejs-version-compatibility)
-    - [Troubleshooting](#troubleshooting)
-    - [Official companion guide](#official-companion-guide)
-- [Contributing](#contributing)
-- [References](#references)
-- [Merchandise](#merchandise)
-- [Donations](#donations)
-- [Contributors](#contributors)
-- [Licensing](#licensing)
+[Setup](#setup) [From Sources](#from-sources)
+
+[Packaged Distributions](#packaged-distributions) [Docker Container](#docker-container)
+
+[Vagrant](#vagrant) [Amazon EC2 Instance](#amazon-ec2-instance)
+
+[Azure Container Instance](#azure-container-instance) [Google Compute Engine Instance](#google-compute-engine-instance)
+
+[Heroku](#heroku) [Gitpod](#gitpod)
+
+[Demo](#demo) [Documentation](#documentation)
+
+[Node.js version compatibility](#nodejs-version-compatibility) [Troubleshooting](#troubleshooting)
+
+[Official companion guide](#official-companion-guide) [Contributing](#contributing)
+
+[References](#references) [Merchandise](#merchandise)
+
+[Donations](#donations) [Contributors](#contributors)
+
+[Licensing](#licensing)
 
 ## Setup
 
@@ -69,14 +69,11 @@ For a detailed introduction, full list of features and architecture overview ple
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/juice-shop/juice-shop.svg)
 
-1. Install [node.js](#nodejs-version-compatibility)
-2. Run `git clone https://github.com/juice-shop/juice-shop.git --depth 1` (or
-   clone [your own fork](https://github.com/juice-shop/juice-shop/fork)
-   of the repository)
-3. Go into the cloned folder with `cd juice-shop`
-4. Run `npm install` (only has to be done before first start or when you change the source code)
-5. Run `npm start`
-6. Browse to <http://localhost:3000>
+Install [node.js](#nodejs-version-compatibility) Run `git clone https://github.com/juice-shop/juice-shop.git --depth 1` (or. clone [your own fork](https://github.com/juice-shop/juice-shop/fork) of the repository)
+
+Go into the cloned folder with `cd juice-shop`. Run `npm install` (only has to be done before first start or when you change the source code)
+
+Run `npm start`. Browse to <http://localhost:3000>.
 
 ### Packaged Distributions
 
@@ -84,13 +81,11 @@ For a detailed introduction, full list of features and architecture overview ple
 [![SourceForge](https://img.shields.io/sourceforge/dm/juice-shop?label=sourceforge%20downloads)](https://sourceforge.net/projects/juice-shop/)
 [![SourceForge](https://img.shields.io/sourceforge/dt/juice-shop?label=sourceforge%20downloads)](https://sourceforge.net/projects/juice-shop/)
 
-1. Install a 64bit [node.js](#nodejs-version-compatibility) on your Windows, MacOS or Linux machine
-2. Download `juice-shop-<version>_<node-version>_<os>_x64.zip` (or
-   `.tgz`) attached to
-   [latest release](https://github.com/juice-shop/juice-shop/releases/latest)
-3. Unpack and `cd` into the unpacked folder
-4. Run `npm start`
-5. Browse to <http://localhost:3000>
+Install a 64bit [node.js](#nodejs-version-compatibility) on your Windows, MacOS or Linux machine. Download `juice-shop-<version>_<node-version>_<os>_x64.zip` (or. `.tgz`) attached to [latest release](https://github.com/juice-shop/juice-shop/releases/latest)
+
+Unpack and `cd` into the unpacked folder. Run `npm start`.
+
+Browse to <http://localhost:3000>.
 
 > Each packaged distribution includes some binaries for `sqlite3` and
 > `libxmljs` bound to the OS and node.js version which `npm install` was
@@ -105,30 +100,23 @@ For a detailed introduction, full list of features and architecture overview ple
 [![](https://images.microbadger.com/badges/version/bkimminich/juice-shop.svg)](https://microbadger.com/images/bkimminich/juice-shop
 "Get your own version badge on microbadger.com")
 
-1. Install [Docker](https://www.docker.com)
-2. Run `docker pull bkimminich/juice-shop`
-3. Run `docker run --rm -p 3000:3000 bkimminich/juice-shop`
-4. Browse to <http://localhost:3000> (on macOS and Windows browse to
-   <http://192.168.99.100:3000> if you are using docker-machine instead of the native docker installation)
+Install [Docker](https://www.docker.com) Run `docker pull bkimminich/juice-shop`.
+
+Run `docker run --rm -p 3000:3000 bkimminich/juice-shop`. Browse to <http://localhost:3000> (on macOS and Windows browse to. <http://192.168.99.100:3000> if you are using docker-machine instead of the native docker installation)
 
 ### Vagrant
 
-1. Install [Vagrant](https://www.vagrantup.com/downloads.html) and
-   [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
-2. Run `git clone https://github.com/juice-shop/juice-shop.git` (or
-   clone [your own fork](https://github.com/juice-shop/juice-shop/fork)
-   of the repository)
-3. Run `cd vagrant && vagrant up`
-4. Browse to [192.168.56.110](http://192.168.56.110)
+Install [Vagrant](https://www.vagrantup.com/downloads.html) and. [Virtualbox](https://www.virtualbox.org/wiki/Downloads) Run `git clone https://github.com/juice-shop/juice-shop.git` (or. clone [your own fork](https://github.com/juice-shop/juice-shop/fork) of the repository)
+
+Run `cd vagrant && vagrant up`. Browse to [192.168.56.110](http://192.168.56.110)
 
 ### Amazon EC2 Instance
 
-1. In the _EC2_ sidenav select _Instances_ and click _Launch Instance_
-2. In _Step 1: Choose an Amazon Machine Image (AMI)_ choose an _Amazon Linux AMI_ or _Amazon Linux 2 AMI_
-3. In _Step 3: Configure Instance Details_ unfold _Advanced Details_ and copy the script below into _User Data_
-4. In _Step 6: Configure Security Group_ add a _Rule_ that opens port 80 for HTTP
-5. Launch your instance
-6. Browse to your instance's public DNS
+In the _EC2_ sidenav select _Instances_ and click _Launch Instance_. In _Step 1: Choose an Amazon Machine Image (AMI)_ choose an _Amazon Linux AMI_ or _Amazon Linux 2 AMI_.
+
+In _Step 3: Configure Instance Details_ unfold _Advanced Details_ and copy the script below into _User Data_. In _Step 6: Configure Security Group_ add a _Rule_ that opens port 80 for HTTP.
+
+Launch your instance. Browse to your instance's public DNS.
 
 ```
 #!/bin/bash
@@ -141,39 +129,29 @@ docker run -d -p 80:3000 bkimminich/juice-shop
 
 ### Azure Container Instance
 
-1. Open and login (via `az login`) to your
-   [Azure CLI](https://azure.github.io/projects/clis/) **or** login to the [Azure Portal](https://portal.azure.com),
-   open the _CloudShell_
-   and then choose _Bash_ (not PowerShell).
-2. Create a resource group by running `az group create --name <group name> --location <location name, e.g. "centralus">`
-3. Create a new container by
-   running `az container create --resource-group <group name> --name <container name> --image bkimminich/juice-shop --dns-name-label <dns name label> --ports 3000 --ip-address public`
-4. Your container will be available at `http://<dns name label>.<location name>.azurecontainer.io:3000`
+Open and login (via `az login`) to your. [Azure CLI](https://azure.github.io/projects/clis/) **or** login to the [Azure Portal](https://portal.azure.com), open the _CloudShell_ and then choose _Bash_ (not PowerShell). Create a resource group by running `az group create --name <group name> --location <location name, e.g. "centralus">`.
+
+Create a new container by. running `az container create --resource-group <group name> --name <container name> --image bkimminich/juice-shop --dns-name-label <dns name label> --ports 3000 --ip-address public` Your container will be available at `http://<dns name label>.<location name>.azurecontainer.io:3000`.
 
 ### Google Compute Engine Instance
 
-1. Login to the Google Cloud Console and
-   [open Cloud Shell](https://console.cloud.google.com/home/dashboard?cloudshell=true).
-2. Launch a new GCE instance based on the juice-shop container. Take note of the `EXTERNAL_IP` provided in the output.
+Login to the Google Cloud Console and. [open Cloud Shell](https://console.cloud.google.com/home/dashboard?cloudshell=true). Launch a new GCE instance based on the juice-shop container. Take note of the `EXTERNAL_IP` provided in the output.
 
 ```
 gcloud compute instances create-with-container owasp-juice-shop-app --container-image bkimminich/juice-shop
 ```
 
-3. Create a firewall rule that allows inbound traffic to port 3000
+Create a firewall rule that allows inbound traffic to port 3000.
 
 ```
 gcloud compute firewall-rules create juice-rule --allow tcp:3000
 ```
 
-4. Your container is now running and available at
-   `http://<EXTERNAL_IP>:3000/`
+Your container is now running and available at. `http://<EXTERNAL_IP>:3000/`
 
 ### Heroku
 
-1. [Sign up to Heroku](https://signup.heroku.com/) and
-   [log in to your account](https://id.heroku.com/login)
-2. Click the button below and follow the instructions
+[Sign up to Heroku](https://signup.heroku.com/) and. [log in to your account](https://id.heroku.com/login) Click the button below and follow the instructions.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
@@ -268,13 +246,7 @@ Add it to our ever-growing list of [REFERENCES.md](REFERENCES.md) by forking and
 
 ## Merchandise
 
-* On [Spreadshirt.com](http://shop.spreadshirt.com/juiceshop) and
-  [Spreadshirt.de](http://shop.spreadshirt.de/juiceshop) you can get some swag (Shirts, Hoodies, Mugs) with the official
-  OWASP Juice Shop logo
-* On
-  [StickerYou.com](https://www.stickeryou.com/products/owasp-juice-shop/794)
-  you can get variants of the OWASP Juice Shop logo as single stickers to decorate your laptop with. They can also print
-  magnets, iron-ons, sticker sheets and temporary tattoos.
+On [Spreadshirt.com](http://shop.spreadshirt.com/juiceshop) and. [Spreadshirt.de](http://shop.spreadshirt.de/juiceshop) you can get some swag (Shirts, Hoodies, Mugs) with the official OWASP Juice Shop logo On. [StickerYou.com](https://www.stickeryou.com/products/owasp-juice-shop/794) you can get variants of the OWASP Juice Shop logo as single stickers to decorate your laptop with. They can also print magnets, iron-ons, sticker sheets and temporary tattoos.
 
 The most honorable way to get some stickers is to
 [contribute to the project](https://pwning.owasp-juice.shop/part3/contribution.html)
@@ -300,12 +272,9 @@ about donations and how they are used here:
 
 The OWASP Juice Shop core project team are:
 
-- [Björn Kimminich](https://github.com/bkimminich) aka `bkimminich`
-  ([Project Leader](https://www.owasp.org/index.php/Projects/Project_Leader_Responsibilities))
-  [![Keybase PGP](https://img.shields.io/keybase/pgp/bkimminich)](https://keybase.io/bkimminich)
-- [Jannik Hollenbach](https://github.com/J12934) aka `J12934`
-- [Timo Pagel](https://github.com/wurstbrot) aka `wurstbrot`
-- [Shubham Palriwala](https://github.com/ShubhamPalriwala) aka `ShubhamPalriwala`
+[Björn Kimminich](https://github.com/bkimminich) aka `bkimminich`. ([Project Leader](https://www.owasp.org/index.php/Projects/Project_Leader_Responsibilities)) [![Keybase PGP](https://img.shields.io/keybase/pgp/bkimminich)](https://keybase.io/bkimminich) [Jannik Hollenbach](https://github.com/J12934) aka `J12934`.
+
+[Timo Pagel](https://github.com/wurstbrot) aka `wurstbrot`. [Shubham Palriwala](https://github.com/ShubhamPalriwala) aka `ShubhamPalriwala`.
 
 For a list of all contributors to the OWASP Juice Shop please visit our
 [HALL_OF_FAME.md](HALL_OF_FAME.md).
