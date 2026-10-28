@@ -46,7 +46,7 @@ export const ForgedFeedbackInstruction: ChallengeInstruction = {
     },
     {
       text:
-          'There is more than meets the eye among the fields of the form... 😉',
+          'There is more than meets the eye among the fields of the form...',
       fixture: 'app-navbar',
       resolved: waitInMs(8000)
     },
@@ -74,7 +74,7 @@ export const ForgedFeedbackInstruction: ChallengeInstruction = {
     },
     {
       text:
-          '🎉 Congratulations, you successfully submitted a feedback as another user!',
+          'Congratulations, you successfully submitted a feedback as another user!',
       fixture: 'app-navbar',
       resolved: waitInMs(15000)
     }

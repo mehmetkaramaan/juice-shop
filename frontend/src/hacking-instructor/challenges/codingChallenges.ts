@@ -52,7 +52,7 @@ export const CodingChallengesInstruction: ChallengeInstruction = {
     },
     {
       text:
-        'For the "Find It" part of this coding challenge, tick the 🔲 on all lines of code that you think are responsible for exposing the Score Board. When done, click the _Submit_ button.',
+        'For the "Find It" part of this coding challenge, tick the [ ] on all lines of code that you think are responsible for exposing the Score Board. When done, click the _Submit_ button.',
       fixture: '#code-snippet',
       fixtureAfter: true,
       unskippable: true,
@@ -68,7 +68,7 @@ export const CodingChallengesInstruction: ChallengeInstruction = {
     },
     {
       text:
-        '🎊! You made it half-way through! In phase two you are now presented with several fix options. You must select the one which you think is the **best possible** fix for the security vulnerability.',
+        'You made it half-way through! In phase two you are now presented with several fix options. You must select the one which you think is the **best possible** fix for the security vulnerability.',
       fixture: '#code-snippet',
       resolved: waitInMs(10000)
     },
@@ -82,7 +82,7 @@ export const CodingChallengesInstruction: ChallengeInstruction = {
     },
     {
       text:
-        'If you did\'nt get the answer right, just try again until the 🎊-cannon fires. Then click _Close_ to end the coding challenge and return to the Score Board.',
+        'If you did\'nt get the answer right, just try again until the confetti cannon fires. Then click _Close_ to end the coding challenge and return to the Score Board.',
       fixture: '#code-snippet',
       fixtureAfter: true,
       unskippable: true,

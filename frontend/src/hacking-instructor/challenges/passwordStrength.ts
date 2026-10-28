@@ -49,7 +49,7 @@ export const PasswordStrengthInstruction: ChallengeInstruction = {
       resolved: waitForInputToNotBeEmpty('#password')
     },
     {
-      text: "🤦‍♂️ Nah, that was wrong! Keep trying! I'll tell you when you're one the right track.",
+      text: "Nah, that was wrong! Keep trying! I'll tell you when you're one the right track.",
       fixture: '#password',
       unskippable: true,
       resolved: waitForInputToHaveValue('#password', 'admin')
@@ -61,13 +61,13 @@ export const PasswordStrengthInstruction: ChallengeInstruction = {
       resolved: waitForInputToHaveValue('#password', 'admin1')
     },
     {
-      text: "🔥 Yes, it's getting warmer! Try adding some more numbers maybe?",
+      text: "Yes, it's getting warmer! Try adding some more numbers maybe?",
       fixture: '#password',
       unskippable: true,
       resolved: waitForInputToHaveValue('#password', 'admin12')
     },
     {
-      text: "🧯 It's getting hot! Just one more digit...",
+      text: "It's getting hot! Just one more digit...",
       fixture: '#password',
       unskippable: true,
       resolved: waitForInputToHaveValue('#password', 'admin123')
@@ -80,7 +80,7 @@ export const PasswordStrengthInstruction: ChallengeInstruction = {
     },
     {
       text:
-        '🎉 Congratulations! You have been logged in as the **administrator** of the shop thanks to his very ill chosen password!',
+        'Congratulations! You have been logged in as the **administrator** of the shop thanks to his very ill chosen password!',
       fixture: 'app-navbar',
       resolved: waitInMs(20000)
     }

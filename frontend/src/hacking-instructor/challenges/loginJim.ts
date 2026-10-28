@@ -97,7 +97,7 @@ export const LoginJimInstruction: ChallengeInstruction = {
     },
     {
       text:
-        '🎉 Congratulations! You have been logged in as Jim!',
+        'Congratulations! You have been logged in as Jim!',
       fixture: 'app-navbar',
       resolved: waitInMs(5000)
     }

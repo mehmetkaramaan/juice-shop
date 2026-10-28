@@ -46,13 +46,13 @@ export const ViewBasketInstruction: ChallengeInstruction = {
     },
     {
       text:
-          "Open the browser's _Development Tools_ and locate the _Session Storage_ tab. Similar to 🍪s, it can be used to store data in key/value pairs for each website.",
+          "Open the browser's _Development Tools_ and locate the _Session Storage_ tab. Similar to cookies, it can be used to store data in key/value pairs for each website.",
       fixture: 'app-navbar',
       resolved: waitForDevTools()
     },
     {
       text:
-          'Look over the names of the used session keys. Do you see something that might be related to the shopping basket? Try setting it to a different value! ✍️',
+          'Look over the names of the used session keys. Do you see something that might be related to the shopping basket? Try setting it to a different value!',
       fixture: 'app-navbar',
       unskippable: true,
       async resolved () {
@@ -89,7 +89,7 @@ export const ViewBasketInstruction: ChallengeInstruction = {
     },
     {
       text:
-          "🎉 Congratulations! You are now viewing another user's shopping basket!",
+          "Congratulations! You are now viewing another user's shopping basket!",
       fixture: 'app-basket',
       resolved: waitInMs(15000)
     }

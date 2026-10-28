@@ -34,7 +34,7 @@ export const BonusPayloadInstruction: ChallengeInstruction = {
     },
     {
       text:
-        '🎉 Congratulations and enjoy the music!',
+        'Congratulations and enjoy the music!',
       fixture: '.noResult',
       resolved: waitInMs(5000)
     }

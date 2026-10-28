@@ -98,7 +98,7 @@ export const LoginBenderInstruction: ChallengeInstruction = {
     },
     {
       text:
-        '🎉 Congratulations! You have been logged in as Bender!',
+        'Congratulations! You have been logged in as Bender!',
       fixture: 'app-navbar',
       resolved: waitInMs(5000)
     }

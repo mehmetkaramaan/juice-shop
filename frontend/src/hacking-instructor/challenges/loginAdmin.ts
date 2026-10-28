@@ -121,7 +121,7 @@ export const LoginAdminInstruction: ChallengeInstruction = {
     },
     {
       text:
-        '🎉 Congratulations! You have been logged in as the **administrator** of the shop! (If you want to understand why, try to reproduce what your `\' OR true--` did _exactly_ to the query.)',
+        'Congratulations! You have been logged in as the **administrator** of the shop! (If you want to understand why, try to reproduce what your `\' OR true--` did _exactly_ to the query.)',
       fixture: 'app-navbar',
       resolved: waitInMs(20000)
     }

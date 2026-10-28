@@ -33,7 +33,7 @@ export const PrivacyPolicyInstruction: ChallengeInstruction = {
       resolved: waitForAngularRouteToBeVisited('privacy-security/privacy-policy')
     },
     {
-      text: '🎉 That was super easy, right? This challenge is a bit of a joke actually, because nobody reads any fine print online... 🙈',
+      text: 'That was super easy, right? This challenge is a bit of a joke actually, because nobody reads any fine print online...',
       fixture: 'app-navbar',
       resolved: waitInMs(60000)
     }

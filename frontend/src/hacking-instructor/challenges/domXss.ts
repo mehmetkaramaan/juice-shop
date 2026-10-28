@@ -82,7 +82,7 @@ export const DomXssInstruction: ChallengeInstruction = {
       resolved: waitForElementsInnerHtmlToBe('#searchValue', '<script>alert(xss)</script>')
     },
     {
-      text: "😔 This didn't work as we hoped. If you inspect the page, you should see the `script`-tag but it is not executed for some reason.",
+      text: "This didn't work as we hoped. If you inspect the page, you should see the `script`-tag but it is not executed for some reason.",
       fixture: '.noResult',
       resolved: waitInMs(10000)
     },
@@ -100,7 +100,7 @@ export const DomXssInstruction: ChallengeInstruction = {
     },
     {
       text:
-        '🎉 Congratulations! You just successfully performed an XSS attack!',
+        'Congratulations! You just successfully performed an XSS attack!',
       fixture: '.noResult',
       resolved: waitInMs(8000)
     },

@@ -44,7 +44,7 @@ export const ScoreBoardInstruction: ChallengeInstruction = {
       resolved: waitForAngularRouteToBeVisited('score-board')
     },
     {
-      text: '🎉 Congratulations! You found the _Score Board_! Good luck and happy hacking!',
+      text: 'Congratulations! You found the _Score Board_! Good luck and happy hacking!',
       fixture: 'app-score-board',
       resolved: waitInMs(60000)
     }
